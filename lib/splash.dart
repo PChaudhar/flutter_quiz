@@ -5,6 +5,7 @@ import 'package:flutter_quiz_app/home.dart';
 
 void main() {
   runApp(MaterialApp(
+    debugShowCheckedModeBanner: false,
     home: onboarding(),
   ));
 }

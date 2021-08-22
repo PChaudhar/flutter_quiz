@@ -1,17 +1,17 @@
 import 'package:flutter/material.dart';
 
-class hamburger extends StatefulWidget {
+class homepage extends StatefulWidget {
   @override
-  _hamburgerState createState() => _hamburgerState();
+  _homepageState createState() => _homepageState();
 }
 
-class _hamburgerState extends State<hamburger> {
+class _homepageState extends State<homepage> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold();
+    return Scaffold(
     appBar:AppBar(
       title: Text("Drawer menu"),
+    )
     );
-      drawer: Drawer();
   }
 }
